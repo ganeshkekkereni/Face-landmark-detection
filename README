@@ -1,0 +1,26 @@
+This is the facial point detector package from the HCI^2 Group at Imperial College London. 
+
+The following is needed to run this:
+
+python (2.4 or higher, tested on 2.4 and 2.5)
+
+With the python libraries:
+opencv
+gtk
+PIL
+
+Intended usage:
+==============
+
+python detectPoints i- [image_file] -o [output_file]
+
+The output file is an xml file, with the names corresponding to the points shown in the image FrontalFaceModel.jpg. Information about the detected facebox is saved by default in the current directory as 'facebox.xml'. This behaviour can be changed by providing the '-w' or '--fbinfo' option together with the desired output filename.
+
+In normal operation the program shows its progress, waiting for any keystroke when an image is shown before it continues operation. If this is not desired behaviour, provide the '-n' option.
+
+Installing Python 2.5
+=====================
+
+Please get Python from 
+
+
